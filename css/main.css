@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+body {
+  font-family: 'Manrope', sans-serif;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  color: black;
+  background-color: white; }
+
+* {
+  transition: all 0.3s ease-in-out; }
+
+.nav-container {
+  position: fixed;
+  width: 100%;
+  clear: both;
+  overflow: auto;
+  top: 0; }
+  .nav-container a {
+    color: black; }
+
+nav {
+  float: right; }
+
+.logo img {
+  float: left; }
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-family: raleway; }
+
+ul li:hover {
+  color: lightblue; }
+
+.container {
+  margin: 0 8%; }
+
+html {
+  margin: 0; }
+
+.hero {
+  margin: 0;
+  max-height: 85vh;
+  background-image: url(../images/wide-angle.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px; }
+  .hero h1 {
+    text-align: center;
+    font-size: 6vw; }
+
+.section-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 3vw; }
+  @media only screen and (max-width: 800px) {
+    .section-title {
+      font-size: 5vw; } }
+
+.nav-list {
+  margin-top: 50px;
+  border-top: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+  padding: 50px 0; }
+  .nav-list a {
+    color: lightblue;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 7vw; }
+    @media only screen and (max-width: 800px) {
+      .nav-list a {
+        font-size: 9vw; } }
+  .nav-list p {
+    font-size: 18px; }
+    @media only screen and (max-width: 800px) {
+      .nav-list p {
+        font-size: 14px; } }
+
+.section-two {
+  margin-top: 150px; }
+
+.hover-link {
+  transition: .2s all ease; }
+
+.hover-link:hover {
+  text-decoration: underline;
+  transition: .2s ease; }
+
+.article-container {
+  width: 90vw;
+  margin: 0 auto; }
+
+.article-hero {
+  height: 100%; }
+
+.moco-hero {
+  background-image: url(../images/moco.JPG);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  height: 100%; }
+  @media only screen and (max-width: 800px) {
+    .moco-hero {
+      background-position: top;
+      margin-top: 100px; } }
+
+.biking-hero {
+  background-image: url(../images/bikes.JPG);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  height: 100%; }
+  @media only screen and (max-width: 800px) {
+    .biking-hero {
+      background-position: top;
+      margin-top: 100px; } }
+
+.food-hero {
+  background-image: url(../images/canal-building.JPG);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  height: 100%; }
+  @media only screen and (max-width: 800px) {
+    .food-hero {
+      background-position: top;
+      margin-top: 100px; } }
+
+.streets-hero {
+  background-image: url(../images/building.JPG);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  height: 100%; }
+  @media only screen and (max-width: 800px) {
+    .streets-hero {
+      background-position: top;
+      margin-top: 100px; } }
+
+.magna-hero {
+  background-image: url(../images/magna.jpg);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  height: 100%; }
+  @media only screen and (max-width: 800px) {
+    .magna-hero {
+      background-position: top; } }
+
+.anne-hero {
+  background-image: url(../images/anne-house.jpg);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  height: 100%; }
+  @media only screen and (max-width: 800px) {
+    .anne-hero {
+      background-position: top;
+      margin-top: 100px; } }
+
+.article-title {
+  text-align: center;
+  font-size: 5vw;
+  line-height: 1; }
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px; }
+  .article-grid div {
+    margin-bottom: 100px; }
+  @media only screen and (max-width: 800px) {
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 50px;
+      grid-row-gap: 0px; } }
+  .article-grid img {
+    width: 80%; }
+  .article-grid p {
+    font-size: 2vw;
+    margin-top: 0;
+    font-weight: 700; }
+    @media only screen and (max-width: 800px) {
+      .article-grid p {
+        font-size: 4vw; } }
+
+.first-image {
+  float: right; }
+  @media only screen and (max-width: 800px) {
+    .first-image {
+      float: none; } }
+
+@media only screen and (max-width: 768px) {
+  main {
+    margin-top: -300px; } }
+
+@media only screen and (max-width: 768px) {
+  .anne-main {
+    margin-top: -500px; } }
+
+@media only screen and (max-width: 500px) {
+  .biking-main {
+    margin-top: -400px; } }
+
+@media only screen and (max-width: 768px) {
+  .food-main {
+    margin-top: -300px; } }
+
+@media only screen and (max-width: 768px) {
+  .magna-main {
+    margin-top: -500px; } }
+
+@media only screen and (max-width: 768px) {
+  .streets-main {
+    margin-top: -500px; } }
+
+.anne-house {
+  width: 100%; }
+
+.article-image {
+  display: block;
+  margin: auto; }
+
+footer {
+  display: flex; }
+  footer p:nth-child(2) {
+    margin-left: 100px; }
